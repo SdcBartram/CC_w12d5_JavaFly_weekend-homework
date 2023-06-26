@@ -80,7 +80,7 @@ public class FlightTest {
 
     @Test
     public void canGetFlightNumber() {
-        assertEquals("FR756", flight.getFlightNumber());
+        assertEquals("BA756", flight.getFlightNumber());
     }
 
     @Test

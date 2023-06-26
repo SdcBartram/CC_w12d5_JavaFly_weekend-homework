@@ -28,3 +28,4 @@ public class PassengerTest {
         assertEquals("Joe Jo", passenger.getName());
     }
 }
+

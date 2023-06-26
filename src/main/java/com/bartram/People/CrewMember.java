@@ -1,6 +1,7 @@
 package com.bartram.People;
 
-public class CrewMember extends Person{
+public abstract class CrewMember extends Person{
+    // can also be abstract
 
     private Rank rank;
 

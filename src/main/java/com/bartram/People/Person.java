@@ -1,6 +1,7 @@
 package com.bartram.People;
 
-public class Person {
+public abstract class Person {
+//    can make person class abstract as not instance of this class is needed
     private String name;
 
     public Person(String name){
@@ -15,3 +16,5 @@ public class Person {
         this.name = name;
     }
 }
+
+

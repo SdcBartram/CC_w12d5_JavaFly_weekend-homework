@@ -104,7 +104,7 @@ public class Flight {
     public void bookPassenger(Passenger passenger){
         if (getAvailableSeats() > 0){
             passengers.add(passenger);
-            System.out.println("Passenger " + passenger.getName() + "has been booked successfully!");
+            System.out.println("Passenger " + passenger.getName() + " has been booked successfully!");
         }
         else {
             System.out.println("No available seats, booking not successful!");
